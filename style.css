@@ -53,6 +53,10 @@ a:hover{
 .logo_sm{
     display: none;
 }
+.logo_content{
+    color: white;
+    text-align: center;
+}
 #logo{
     width: 100%;
 }
@@ -64,12 +68,17 @@ a:hover{
     align-items: center;
 }
 .slide{
-    margin: 5rem;
+    margin: 5%;
 }
 .carousel-inner{
-    width: 90vw;
+    width: 80vw;
     height: auto;
     
+}
+.carousel-item{
+    margin-left: 10%;
+    align-items: center;
+    width: 80%;
 }
 .d-block{
     width: 5px;
@@ -113,21 +122,24 @@ footer{
 p{
     margin: 0;
 }
+.facilities{
+    margin: 5%;
+    padding: 5%;
+}
 .faci{
     height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 5%;
 }
 .hmc{
     width: 33.33%;
-    padding: 2rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     padding-bottom: 20px;
-    position: relative;
 }
 #hmc_container{
     padding: 3rem;
@@ -183,5 +195,22 @@ p{
     }
     .pic{
         width: 100%;
+    }
+    .facilities{
+        margin: 0;
+        padding: 5%;
+    }
+    .faci{
+        padding: 0;
+        padding-bottom: 5%;
+    }
+    .home{
+        height: 60vh;
+    }
+    #hmc_container{
+        padding: 8%;
+    }
+    .hmc{
+        padding: 2%;
     }
   }
