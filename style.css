@@ -72,14 +72,10 @@ a:hover{
     margin: 5%;
 }
 .carousel-inner{
-    width: 80vw;
-    height: auto;
-    
+    text-align: center;
 }
 .carousel-item{
-    margin-left: 10%;
-    align-items: center;
-    width: 80%;
+    text-align: center;
 }
 .d-block{
     width: 5px;
